@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "ecommerce",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@strapi/provider-upload-aws-s3": "^4.0.0",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
     "strapi-connector-mongoose": "3.6.8",
@@ -20,14 +21,13 @@
     "strapi-plugin-i18n": "3.6.8",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
-    "strapi-provider-upload-aws-s3": "^3.6.8",
     "strapi-utils": "3.6.8"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "347962ce-2900-4272-95e0-7ed5b8f256bb",
+    "uuid": "7ee59654-842d-4a98-b795-8cb61f2f05ee",
     "template": "https://github.com/strapi/strapi-template-ecommerce"
   },
   "engines": {

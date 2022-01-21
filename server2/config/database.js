@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
         host: env('DATABASE_HOST', 'ecommerce-mr.8icuk.mongodb.net'),
         srv: env.bool('DATABASE_SRV', true),
         port: env.int('DATABASE_PORT', 27017),
-        database: env('DATABASE_NAME', 'ecommerce-mr'),
+        database: env('DATABASE_NAME', 'ecommerce'),
         username: env('DATABASE_USERNAME', 'admin'),
         password: env('DATABASE_PASSWORD', 'next123456'),
       },
